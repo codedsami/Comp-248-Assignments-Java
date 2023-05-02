@@ -1,7 +1,7 @@
     //---------------------------------------------------------------------------------------------------------------------------------------------
 	// Assignment 1
 	// Written by: Miskat Mahmud id#40250110
-    // Date: 07 October 2022
+        // Date: 07 October 2022
 	// For COMP 248 Section RA
 	//----------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -23,7 +23,6 @@ public class A1_Q2 {
 		
 		// Declaring the Scanner
 		Scanner Keyboard = new Scanner(System.in);
-		
 		
 		
 		// Displaying the welcome message
@@ -57,10 +56,10 @@ public class A1_Q2 {
 		
 		
 		// Computing the remainder of new fahrenheit and new celsius value and rounding off
-	    double x = Math.round(FahrenheitNew)% Math.round(CelsiusNew);
+	        double x = Math.round(FahrenheitNew)% Math.round(CelsiusNew);
 	    
 	    
-	    // Computing the exponential operation of FahrenheitNew^CelsiusNew
+	        // Computing the exponential operation of FahrenheitNew^CelsiusNew
 		double y = Math.pow(FahrenheitNew, CelsiusNew);
 		
 		
